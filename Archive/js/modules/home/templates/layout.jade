@@ -1,0 +1,40 @@
+body
+br
+#myCarousel.carouselslide(data-ride="carousel" float="center")
+	ol.carousel-indicators
+		li(data-target="#myCarousel" data-slide-to="0").active
+		li(data-target="#myCarousel" data-slide-to="1")
+		li(data-target="#myCarousel" data-slide-to="2")
+		li(data-target="#myCarousel" data-slide-to="3")
+		li(data-target="#myCarousel" data-slide-to="4")
+	.carousel-inner(role="listbox")
+		.item.active
+			img(src="../../static/poza.jpg")
+		.item
+			img(src="../../static/ceasuri.jpg")
+		.item
+			img(src="../../static/bici.jpg")
+		.item
+			img(src="../../static/flori.jpg")
+		.item
+			img(src="../../static/images.jpg")
+	a.left.carousel-control(href="#myCarousel" role="botton" data-slide="prev")
+		span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+		span.sr-only
+			| Previous
+	a.right.carousel-control(href="#myCarousel" role="botton" data-slide ="next")
+		span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+		span.sr-only
+			| Next
+.row
+	#articole
+		.articole-content.col-md-3
+			h2
+				|titlul articolului
+			p
+				|Cea mai mare glorie nu o dobândeºti atunci când nu eºti doborât niciodatã, ci atunci când te ridici dupã ce ai cãzut. – Confucius
+		.articole-content.col-md-3
+			h2
+				|titlul articolului
+			p
+				|Indiferent ce faci în viaþã, va fi nesemnificativ. Dar e foarte important sã o faci. – Mahatma Gandhi
